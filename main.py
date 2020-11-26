@@ -52,7 +52,7 @@ def moyenne_jour(liste):
 # exo 8
 def maximum(liste):
     """
-    Renvoie la valeur du maximum puis l'indice du maxium
+    Renvoie la valeur du maximum puis l'indice du maximum
     """
     n = len(liste)
     maxi = liste[0]
