@@ -3,4 +3,4 @@
 Voici la "correstion", plutôt ce que j'ai fait et qui fonctionne pour le ds de l'année derniere en info.
 Pour l'instant il y a que les premiers exos.
 
-Aller voir dans le fichier main.py
+Cliquez sur view code puis sur le fichier main.py
