@@ -91,7 +91,7 @@ def nb_retards(liste, seuil):
     return nb_retards_total
 
 # exo 11
-# !! Ici je propose 2 fonction différentes
+# !! Ici je propose 2 fonctions différentes
 # La premiere calcul la vraie moyenne des retards, qui n'est pas la valeur donnée dans l'énoncé
 def moy_retards_1(liste):
     retards_liste = []
