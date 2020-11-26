@@ -63,7 +63,7 @@ def maximum(liste):
             indice_max = i
     return maxi, indice_max
 
-
+# exo 8
 jours = ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"]
 def jour_max(liste):
     # indice_max est l'indice du jour qui a la plus grande moyenne de réservation
