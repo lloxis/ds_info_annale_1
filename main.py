@@ -76,11 +76,9 @@ departO = [624, 803, 950, 1047, 1133, 1320]
 def nb_quais(arrivees, departs):
     nb_quais_neccessaires = 0
     max_nb_quais_neccessaires = 0
-    for i in range(arrivees[0], departs[-1]+1):
-        if i in arrivees:
-            nb_quais_neccessaires +=1
-        elif i in departO:
-            nb_quais_neccessaires -= 1
+    for i in range(1441): # il y a 1440 secondes dans une journée
+        nb_quais_neccessaires += arrivees.count(i) # on ajoute les nombres de trains qui avivent à cette minute
+        nb_quais_neccessaires -= departs.count(i) # on enlève les nombres de trains qui partent à cette minute
         if nb_quais_neccessaires > max_nb_quais_neccessaires:
             max_nb_quais_neccessaires = nb_quais_neccessaires
     return max_nb_quais_neccessaires
